@@ -1668,3 +1668,161 @@ section * {
   background-color: #1B1F23;
   color: #7F8C8D;
 }
+
+/* content */
+/**
+ * Content 13 stylesheet  
+ * */
+.content-13 {
+  position: relative;
+}
+.content-13.subscribe-form {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #a1a9b1;
+}
+.content-13.subscribe-form .col-sm-4 {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .content-13.subscribe-form .col-sm-4 {
+    width: auto;
+    display: inline-block;
+    float: right;
+    text-align: center;
+  }
+}
+@media (max-width: 668px) {
+  .content-13.subscribe-form .col-sm-4 {
+    display: block;
+    float: none;
+  }
+}
+.content-13.subscribe-form form {
+  margin: 0;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .content-13.subscribe-form form .col-sm-8 {
+    width: 65%;
+    display: inline-block;
+    float: left;
+  }
+}
+@media (max-width: 668px) {
+  .content-13.subscribe-form form .col-sm-8 {
+    width: auto;
+    display: block;
+    float: none;
+    text-align: center;
+  }
+}
+.content-13.subscribe-form input[type="text"],
+.content-13.subscribe-form input[type="email"] {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  line-height: 59.99999999999999px;
+  font-size: 50px;
+  font-weight: normal;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.content-13.subscribe-form input[type="text"]:-moz-placeholder,
+.content-13.subscribe-form input[type="email"]:-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.content-13.subscribe-form input[type="text"]::-moz-placeholder,
+.content-13.subscribe-form input[type="email"]::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.content-13.subscribe-form input[type="text"]:-ms-input-placeholder,
+.content-13.subscribe-form input[type="email"]:-ms-input-placeholder {
+  color: #ffffff;
+}
+.content-13.subscribe-form input[type="text"]::-webkit-input-placeholder,
+.content-13.subscribe-form input[type="email"]::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.content-13.subscribe-form input[type="text"].placeholder,
+.content-13.subscribe-form input[type="email"].placeholder {
+  color: #ffffff;
+}
+.content-13.subscribe-form input[type="text"]::-webkit-input-placeholder,
+.content-13.subscribe-form input[type="email"]::-webkit-input-placeholder {
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.content-13.subscribe-form input[type="text"]:-moz-placeholder,
+.content-13.subscribe-form input[type="email"]:-moz-placeholder {
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.content-13.subscribe-form input[type="text"]::-moz-placeholder,
+.content-13.subscribe-form input[type="email"]::-moz-placeholder {
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.content-13.subscribe-form input[type="text"]:-ms-input-placeholder,
+.content-13.subscribe-form input[type="email"]:-ms-input-placeholder {
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.content-13.subscribe-form .ani-placeholder {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  padding-left: 6px;
+  line-height: 59.99999999999999px;
+  font-size: 50px;
+  font-weight: normal;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.content-13.subscribe-form .btn {
+  margin-top: 8px;
+  width: 220px;
+  max-width: 100%;
+}
+.content-13.subscribe-form .btn.btn-primary {
+  background: #16a085;
+}
+.content-13.subscribe-form .btn.btn-primary:hover,
+.content-13.subscribe-form .btn.btn-primary:focus {
+  background: #24deb4;
+}
+.content-13.subscribe-form .btn.btn-primary:active,
+.content-13.subscribe-form .btn.btn-primary.active {
+  background: #138871;
+}
+@media (max-width: 480px) {
+  .content-13.subscribe-form input[type="text"],
+  .content-13.subscribe-form input[type="email"],
+  .content-13.subscribe-form .ani-placeholder {
+    width: 100%;
+    margin-bottom: 33px;
+    line-height: 27px;
+    font-size: 25px;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+}
+@media (max-width: 688px) {
+  .content-13.subscribe-form input[type="text"],
+  .content-13.subscribe-form input[type="email"],
+  .content-13.subscribe-form .ani-placeholder {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
