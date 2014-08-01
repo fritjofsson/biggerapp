@@ -6,7 +6,7 @@
 /* styles from flat-ui-free2.0.0-fix.less files */
 body {
   color: #34495e;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.231;
 }
@@ -14,7 +14,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 a {
@@ -31,11 +31,11 @@ a:hover {
 }
 h1,
 .h1 {
-  font-size: 28px /* 24px */;
+  font-size: 28px /* 34px */;
 }
 h2,
 .h2 {
-  font-size: 41px /* 52px */;
+  font-size: 21px /* 22px */;
 }
 h3,
 .h3 {
