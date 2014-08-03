@@ -113,4 +113,6 @@ function fadedEls(el, shift) {
     });
 })(jQuery);
 
-$('fui-arrow-down').scrollTo(500); // Scroll screen 500 pixels down
+$(".fui-arrow-down").click(function() {
+  $('body').scrollTo(500); // Scroll screen 500 pixels down
+});
